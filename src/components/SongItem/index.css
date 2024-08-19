@@ -1,0 +1,37 @@
+.cover-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.song-list-item {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-left: 0px;
+  margin-bottom: 10px;
+}
+
+.artist {
+  opacity: 60%;
+  font-size: 12px;
+  font-family: 'Roboto';
+}
+
+.name {
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.selected {
+  background-color: #282c34;
+  border-radius: 5px;
+  width: 320px;
+  padding: 5px;
+}
+
+li:hover {
+  cursor: pointer;
+}
